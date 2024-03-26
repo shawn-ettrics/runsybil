@@ -20,8 +20,8 @@ function updateCanvas(element, program) {
     let currentTime = Date.now();
     let elapsedTime = currentTime - startTime;
 
-    const charWidth = 12; // Adjust based on your font size and element styling
-    const charHeight = 18; // Adjust based on your font size and element styling
+    const charWidth = 5; // Adjust based on your font size and element styling
+    const charHeight = 15; // Adjust based on your font size and element styling
 
     const width = Math.floor(window.innerWidth / charWidth);
     const height = Math.floor(window.innerHeight / charHeight);
